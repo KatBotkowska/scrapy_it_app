@@ -1,1 +1,2 @@
-web: gunicorn scrapy_it_app.wsgi --log-file -
+# web: gunicorn scrapy_it_app.wsgi --log-file -
+clock: python clock.py
