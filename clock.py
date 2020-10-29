@@ -1,5 +1,7 @@
 #Python scheduler on Heroku https://devcenter.heroku.com/articles/clock-processes-python
 
+#Spider scheduler https://stackoverflow.com/questions/61040267/unable-to-run-scrapy-spider-with-apscheduler
+
 from apscheduler.schedulers.blocking import BlockingScheduler
 from scrapy_job_it.spiders.bdcrawler import BDcrawlerSpider
 from scrapy.utils.project import get_project_settings
