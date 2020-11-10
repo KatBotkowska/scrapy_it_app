@@ -29,7 +29,7 @@ def run_spider(spider, hour):
 
 
 run_spider(BDcrawlerSpider, 20)
-run_spider(JjcrawlerSpider, 10)
+# run_spider(JjcrawlerSpider, 10)
 
 #run scheduler - tutorial
 # sched = BlockingScheduler()
