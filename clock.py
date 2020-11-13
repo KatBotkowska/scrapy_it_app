@@ -13,7 +13,7 @@ process = CrawlerProcess(get_project_settings())
 process.crawl(BDcrawlerSpider)
 process.start()
 scheduler = TwistedScheduler()
-scheduler.add_job(process.crawl, 'cron', args=[BDcrawlerSpider], hour=20, minute=50)
+scheduler.add_job(process.crawl, 'cron', args=[BDcrawlerSpider], hour=15, minute=00)
 scheduler.start()
 process.start(False)
 
