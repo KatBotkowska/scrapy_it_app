@@ -44,7 +44,7 @@ six==1.15.0
 sqlparse==0.3.1
 toml==0.10.1
 tqdm==4.46.0
-Twisted==20.3.0
+Twisted==22.2.0
 tzlocal==2.1
 urllib3==1.25.9
 w3lib==1.22.0
